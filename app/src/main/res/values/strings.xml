@@ -1,0 +1,45 @@
+<resources>
+    <!-- title -->
+    <string name="app_name">Schedule Note</string>
+    <string name="app_label">Schedule Note</string>
+    <string name="app_bar_title">Schedule</string>
+    <string name="app_bar_title_setting">Setting</string>
+    <string name="app_bar_title_add">Schedule Add</string>
+    <string name="app_bar_title_edit">Schedule Edit</string>
+
+    <!-- menu -->
+    <string name="menu_delete">Delete</string>
+    <string name="menu_complete">Complete</string>
+    <string name="menu_setting">Setting</string>
+
+    <!-- dialog -->
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ask_delete">Are you sure to delete the selected ones?</string>
+    <string name="dialog_ask_complete">Are you sure to complete the selected ones?</string>
+
+    <!-- setting -->
+    <string name="setting_receive_notification">Receive Schedule Notification</string>
+    <string name="setting_donation">Donate!</string>
+
+    <!-- schedule add edit -->
+    <string name="schedule_title_hint">Title</string>
+    <string name="schedule_memo_hint">Memo</string>
+    <string name="schedule_time_default">Do not set time</string>
+    <string name="Y">Y</string>
+    <string name="M">M</string>
+    <string name="D">D</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="Sun">SUN</string>
+    <string name="Mon">MON</string>
+    <string name="Tue">TUE</string>
+    <string name="Wed">WED</string>
+    <string name="Thu">THU</string>
+    <string name="Fri">FRI</string>
+    <string name="Sat">SAT</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Save">Save</string>
+    <string name="Edit">Edit</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pleiades.pleione.schedulenote">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_label"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver
+            android:name="com.pleiades.pleione.schedulenote.NotificationReceiverBoot"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name="com.pleiades.pleione.schedulenote.NotificationReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+        <activity
+            android:name="com.pleiades.pleione.schedulenote.MainActivity"
+            android:label="@string/app_label"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- schedule add activity -->
+        <!-- adjust resize help buttons to be placed above keyboard -->
+        <activity
+            android:name="com.pleiades.pleione.schedulenote.LayoutScheduleAdd"
+            android:label="@string/app_bar_title_add"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <!-- schedule edit activity -->
+        <!-- adjust resize help buttons to be placed above keyboard -->
+        <activity
+            android:name="com.pleiades.pleione.schedulenote.LayoutScheduleEdit"
+            android:label="@string/app_bar_title_edit"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <activity
+            android:name="com.pleiades.pleione.schedulenote.LayoutSetting"
+            android:label="@string/app_bar_title_setting"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

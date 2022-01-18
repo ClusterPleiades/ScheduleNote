@@ -5,7 +5,7 @@ Android Application for Scheduling
 ## Release
 <img src="https://user-images.githubusercontent.com/81938036/149960321-4d97db5e-fc99-4f79-b221-abf456b280c9.png" width="64" height="64">
 <a href="https://play.google.com/store/apps/details?id=com.pleiades.pleione.schedulenote">
-  <img src="https://img.shields.io/badge/release-1.1.1-FC7C8D">
+  <img src="https://img.shields.io/badge/Play Store-1.1.1-FC7C8D">
 </a>
 <br><br>
 

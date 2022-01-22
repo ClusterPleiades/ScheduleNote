@@ -3,7 +3,7 @@ Android Application for Scheduling
 <br><br>
 
 ## Release
-<img src="https://user-images.githubusercontent.com/81938036/149960321-4d97db5e-fc99-4f79-b221-abf456b280c9.png" width="64" height="64">
+<img src="https://user-images.githubusercontent.com/81938036/150636503-0c33c696-1f82-453e-9726-1d45ac9bb409.png" width="64" height="64">
 <a href="https://play.google.com/store/apps/details?id=com.pleiades.pleione.schedulenote">
   <img src="https://img.shields.io/badge/Play Store-1.1.1-FC7C8D">
 </a>
